@@ -1,0 +1,34 @@
+.team-block {
+  width: 100%;
+  gap: 50px;
+  background-color: var(--quaternary-color);
+}
+
+.team-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.team-name .role {
+  font-weight: 400;
+  color: var(--quinary-color);
+}
+
+.team-name .name {
+  margin-bottom: 10px;
+}
+
+.team-name .portfolio {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+}
