@@ -1,5 +1,5 @@
 /* =============== CSS reset =============== */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -13,11 +13,11 @@ p {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
+} */
 
 /* =============== END CSS RESET =============== */
 
-:root {
+/* :root {
   --first-dark: #000000;
   --main-color: #212121;
   --primary-color: #2196f3;
@@ -33,9 +33,11 @@ body {
   background: var(--secondary-color);
   color: var(--main-color);
   font-family: "Roboto", sans-serif;
-}
+} */
 
-.header-block {
+/* =============== HEADER =============== */
+
+/* .header-block {
   width: 100%;
   background: var(--secondary-color);
   padding: 24px 0px;
@@ -46,9 +48,9 @@ body {
 
 .header-block.border-none {
   border: none;
-}
+} */
 
-.wrapper {
+/* .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,15 +62,15 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
-.container {
+/* .container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.main-navigation-with-logo {
+/* .main-navigation-with-logo {
   display: flex;
   justify-content: flex-start;
   gap: 93px;
@@ -154,11 +156,11 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--quinary-color);
-}
+} */
 
 /* =============== MAIN =============== */
 
-.modal-btn {
+/* .modal-btn {
   padding: 10px 42px;
   font-size: 16px;
   font-weight: 700;
@@ -173,14 +175,8 @@ body {
   justify-content: center;
   align-items: center;
   border-style: none;
-}
+} */
 
-.form-button {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
-}
 
 .btn-portfolio {
   padding: 6px 22px;
@@ -254,7 +250,7 @@ body {
   width: 100%;
 }
 
-.portfolio-img-description {
+/* .portfolio-img-description {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -269,7 +265,7 @@ body {
   align-items: center;
   font-weight: 400;
   color: var(--quinary-color);
-}
+} */
 
 .main-block {
   display: flex;
@@ -316,9 +312,9 @@ body {
   align-items: center;
 }
 
-.main-img-description {
+/* .main-img-description {
   padding: 30px;
-}
+} */
 
 .main-img-box {
   max-width: 270px;
@@ -336,7 +332,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.description-title {
+/* .description-title {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -351,7 +347,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--quinary-color);
   margin-bottom: 94px;
-}
+} */
 
 .team-block {
   width: 100%;
@@ -416,10 +412,10 @@ body {
   color: var(--secondary-color);
 }
 
-.footer-logo {
+/* .footer-logo {
   display: block;
   margin-bottom: 20px;
-}
+} */
 
 .footer-navigation {
   display: block;
@@ -637,7 +633,7 @@ body {
 
 /* =============== BACKDROP =============== */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   left: 0;
   top: 0;
@@ -835,7 +831,7 @@ body {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
+} */
 
 /* =============== END BACKDROP =============== */
 
