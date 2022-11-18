@@ -1,8 +1,5 @@
 @import "./utils/vars";
 @import "./components/common";
-@import "./components/header";
-@import "./components/navigation";
-@import "./components/logo";
 @import "./components/portfolio-img";
 @import "./components/main-block";
 @import "./components/description";
@@ -11,7 +8,7 @@
 @import "./components/social-icons";
 @import "./components/client-icons";
 @import "./components/modal";
-@import "./components/lorem-ipsum-x icons";
+@import "./components/lorem-ipsum-icons";
 @import "./components/overlay";
 
 @import "./components/portfolio-button-list";
@@ -20,3 +17,6 @@
 @import "./components/form";
 @import "./components/button";
 @import "./components/backdrop";
+@import "./components/logo";
+@import "./components/navigation";
+@import "./components/top-bar";

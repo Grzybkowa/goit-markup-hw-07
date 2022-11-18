@@ -29,6 +29,10 @@
   transition-duration: 250ms;
   transition-property: color, fill;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover .top-bar__contact-icon {
+    fill: var(--primary-color);
+  }
 }
 
 .img {

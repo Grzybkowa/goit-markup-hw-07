@@ -5,12 +5,13 @@
   letter-spacing: 0.03em;
   color: var(--main-color);
   text-decoration: none;
+
+  &--blue {
+    color: var(--primary-color);
+  }
+  
+  &--white {
+    color: var(--secondary-color);
+  }
 }
 
-.blue {
-  color: var(--primary-color);
-}
-
-.white {
-  color: var(--secondary-color);
-}

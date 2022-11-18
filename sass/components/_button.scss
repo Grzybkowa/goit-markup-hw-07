@@ -14,4 +14,9 @@
   justify-content: center;
   align-items: center;
   border-style: none;
+
+  &--with-icon {
+    padding: 10px 24px 10px 42px;
+    gap: 24px;
+  }
 }

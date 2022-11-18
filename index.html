@@ -19,28 +19,32 @@
     <link href="./css/main.min.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="header-block border-none">
+    <header class="top-bar top-bar--border-none">
       <div class="wrapper">
-        <div class="main-navigation-with-logo">
+        <div class="top-bar__navigation">
           <a href="index.html" class="logo hover-link"
-            ><span class="blue">Web</span>Studio</a
+            ><span class="logo--blue">Web</span>Studio</a
           >
-          <nav class="main-navigation">
-            <a class="top-title hover-link active-link" href="Agencja"
+          <nav class="navigation">
+            <a
+              class="navigation__link navigation__link--active hover-link"
+              href="Agencja"
               >Agencja</a
             >
-            <a class="top-title hover-link" href="portfolio.html">Portfolio</a>
-            <a class="top-title hover-link" href="Kontakt">Kontakt</a>
+            <a class="navigation__link hover-link" href="portfolio.html"
+              >Portfolio</a
+            >
+            <a class="navigation__link hover-link" href="Kontakt">Kontakt</a>
           </nav>
         </div>
 
-        <div class="header-contact-links">
+        <div class="top-bar__contact">
           <a
-            class="top-contact-title hover-link"
+            class="top-bar__contact-link hover-link"
             href="mailto:info@devstudio.com"
           >
             <svg
-              class="contact-icons"
+              class="top-bar__contact-icon"
               width="16"
               height="12"
               style="outline: 1px"
@@ -50,19 +54,18 @@
 
             info@devstudio.com
           </a>
-          <div class="contact-icons">
-            <a class="top-contact-title hover-link" href="tel:+48111111111">
-              <svg
-                class="contact-icons"
-                width="10"
-                height="16"
-                style="outline: 1px"
-              >
-                <use href="./images/icons.svg#icon-smartphone"></use>
-              </svg>
-              +48 111 111 111</a
+
+          <a class="top-bar__contact-link hover-link" href="tel:+48111111111">
+            <svg
+              class="top-bar__contact-icon"
+              width="10"
+              height="16"
+              style="outline: 1px"
             >
-          </div>
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+            +48 111 111 111</a
+          >
         </div>
       </div>
     </header>
@@ -358,7 +361,8 @@
       <div class="footer-wrapper">
         <div>
           <a href="WebStudio" class="logo hover-link footer-logo"
-            ><span class="white">Web</span><span class="blue">Studio</span></a
+            ><span class="logo--white">Web</span
+            ><span class="logo--blue">Studio</span></a
           >
           <address class="address-text">
             <a class="footer-data footer-navigation"
@@ -411,7 +415,7 @@
               class="footer-input"
             />
 
-            <button type="submit" class="button icon-send">
+            <button type="submit" class="button button--with-icon">
               Zapisz się
               <svg width="24" height="24">
                 <use href="./images/icons.svg#icon-icon-send"></use>
