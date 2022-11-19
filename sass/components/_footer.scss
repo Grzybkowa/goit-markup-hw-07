@@ -16,9 +16,11 @@
 
   &__address {
     font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
 
-    &--data {
-      align-items: center;
+    &__data {
       text-decoration: none;
       font-size: 14px;
       line-height: 1.71;
@@ -81,4 +83,3 @@
 // .footer-form:has(input:focus) {
 //   border-color: var(--primary-color);
 // }
-
