@@ -57,3 +57,13 @@
   visibility: hidden;
   pointer-events: none;
 }
+
+.title-h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--main-color);
+  margin-bottom: 50px;
+}

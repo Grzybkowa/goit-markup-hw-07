@@ -53,25 +53,4 @@
   position: relative;
 }
 
-.img-position {
-  position: relative;
-  overflow: hidden;
-  display: flex;
-}
 
-.img-position > .label {
-  position: absolute;
-  overflow: hidden;
-  background: #2f303acc 80%;
-  bottom: 0;
-  margin: 0;
-  width: 100%;
-  border-radius: 0px;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-align: center;
-  padding: 27px 90px;
-  color: var(--secondary-color);
-}

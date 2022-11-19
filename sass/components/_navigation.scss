@@ -9,19 +9,19 @@
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--main-color);
-  }
 
-  &--active {
-    position: relative;
+    &--active {
+      position: relative;
 
-    &::after {
-      position: absolute;
-      content: "";
-      height: 4px;
-      width: 100%;
-      background-color: var(--primary-color);
-      bottom: -32px;
-      border-radius: 2px;
+      &::after {
+        position: absolute;
+        content: "";
+        height: 4px;
+        width: 100%;
+        background-color: var(--primary-color);
+        bottom: -32px;
+        border-radius: 2px;
+      }
     }
   }
 }
