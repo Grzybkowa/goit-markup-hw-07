@@ -35,7 +35,7 @@
   }
 }
 
-.img {
+.display-block {
   display: block;
 }
 
@@ -66,4 +66,15 @@
   text-align: center;
   color: var(--main-color);
   margin-bottom: 50px;
+}
+
+.title-h3 {
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.display-flex {
+  display: flex;
+  gap: 10px;
 }
