@@ -32,40 +32,6 @@
   }
 }
 
-// .portfolio-img-box {
-//   max-width: 370px;
-//   width: 100%;
-//   display: inline-block;
-//   justify-content: space-around;
-//   margin: 0;
-//   align-items: center;
-//   transition-duration: 250ms;
-//   transition-property: box-shadow;
-//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-//   position: relative;
-//   overflow: hidden;
-//   cursor: pointer;
-// }
-
-// .portfolio-img-main {
-//   overflow: hidden;
-//   position: relative;
-// }
-
-// .portfolio-img-box:hover,
-// .portfolio-img-box:focus {
-//   box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
-//     0px 1px 1px 0px #0000001f;
-// }
-
-// .potfolio-main-wrapper {
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-between;
-//   max-width: 1200px;
-//   width: 100%;
-// }
-
 .portfolio-img-description {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
@@ -99,4 +65,3 @@
     color: var(--quinary-color);
   }
 }
-

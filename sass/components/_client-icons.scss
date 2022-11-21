@@ -12,9 +12,9 @@
   transition-property: border, color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
-}
 
-.client-icons:hover {
-  border: 1px solid var(--primary-color);
-  --color1: var(--primary-color);
+  &:hover {
+    border: 1px solid var(--primary-color);
+    --color1: var(--primary-color);
+  }
 }
